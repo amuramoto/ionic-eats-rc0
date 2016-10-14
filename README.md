@@ -15,9 +15,9 @@ This is a single page sample app built with the Ionic2 RC0 blank starter. Featur
 
 To run the app, clone or download it, then do the following in the project directory:
 
-# `npm install` to install dependencies
-# `ionic plugin add geolocation` to get the Cordova Geolocation plugin
-# `ionic serve` to run in the browser
+1. `npm install` to install dependencies
+2. `ionic plugin add geolocation` to get the Cordova Geolocation plugin
+3. `ionic serve` to run in the browser
 
 If you want to run this on a device, you'll have to do the song and dance of either setting up USB debugging on your Android device, or code signing and etc. on your iOS device.
 
