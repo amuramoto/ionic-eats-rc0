@@ -1,6 +1,6 @@
 # Ionic Eats Demo Code
 
-This is a single page sample app built with the Ionic2 RC0 blank starter. Features used in this app are:
+This is a single page sample app built with the ionic 2 RC3. Features used in this app are:
 
 - ion-list
 - ion-item
