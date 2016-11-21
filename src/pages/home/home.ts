@@ -11,7 +11,7 @@ import {Geolocation} from 'ionic-native';
 export class HomePage {
 
   restaurants: Array<Object>;
-  searchTerm: string;
+  searchTerm: string = 'Restaurants';
 
   constructor(public navCtrl: NavController, public http: Http, 
               public platform: Platform) {
