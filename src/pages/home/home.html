@@ -7,7 +7,9 @@
 </ion-header>
 
 <ion-content>
-  <ion-searchbar [(ngModel)]="searchTerm" (search)="getRestaurants()"></ion-searchbar>
+  <form (submit)="getRestaurants()">
+    <ion-searchbar [(ngModel)]="searchTerm"  name="search"></ion-searchbar>
+  </form>
   <ion-list>
     <ion-item *ngFor="let restaurant of restaurants" text-wrap>
       <ion-grid>
