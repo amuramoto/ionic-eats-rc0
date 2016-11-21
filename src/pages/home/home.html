@@ -7,7 +7,7 @@
 </ion-header>
 
 <ion-content>
-  <form (submit)="getRestaurants()">
+  <form (ngSubmit)="getRestaurants()">
     <ion-searchbar [(ngModel)]="searchTerm"  name="search"></ion-searchbar>
   </form>
   <ion-list>
